@@ -3,18 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CFB65B3C1AE07EDB0003641B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CFB65B3B1AE07EDB0003641B /* GameScene.sks */; };
 		E29E38CB1AE0726A00B24D9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E38CA1AE0726A00B24D9C /* AppDelegate.swift */; };
-		E29E38CD1AE0726A00B24D9C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E29E38CC1AE0726A00B24D9C /* GameScene.sks */; };
 		E29E38CF1AE0726A00B24D9C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E38CE1AE0726A00B24D9C /* GameScene.swift */; };
 		E29E38D11AE0726A00B24D9C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E38D01AE0726A00B24D9C /* GameViewController.swift */; };
 		E29E38D41AE0726A00B24D9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E29E38D21AE0726A00B24D9C /* Main.storyboard */; };
 		E29E38D61AE0726A00B24D9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E29E38D51AE0726A00B24D9C /* Images.xcassets */; };
 		E29E38D91AE0726A00B24D9C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E29E38D71AE0726A00B24D9C /* LaunchScreen.xib */; };
 		E29E38E51AE0726A00B24D9C /* IndependenceDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E38E41AE0726A00B24D9C /* IndependenceDayTests.swift */; };
+		E29E38EF1AE0728300B24D9C /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E38EE1AE0728300B24D9C /* SwiftyJSON.swift */; };
+		E29E38F11AE072A300B24D9C /* presidents.json in Resources */ = {isa = PBXBuildFile; fileRef = E29E38F01AE072A300B24D9C /* presidents.json */; };
+		E29E38F31AE072E100B24D9C /* Launcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E38F21AE072E100B24D9C /* Launcher.swift */; };
+		E29E38F51AE0733200B24D9C /* PresidentLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E38F41AE0733200B24D9C /* PresidentLauncher.swift */; };
+		E29E38F71AE0735900B24D9C /* President.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E38F61AE0735900B24D9C /* President.swift */; };
+		E29E38F91AE0738100B24D9C /* Firework.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E38F81AE0738100B24D9C /* Firework.swift */; };
+		E29E38FC1AE0747D00B24D9C /* explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = E29E38FA1AE0747D00B24D9C /* explosion.sks */; };
+		E29E38FD1AE0747D00B24D9C /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = E29E38FB1AE0747D00B24D9C /* spark.png */; };
+		E29E38FF1AE074EE00B24D9C /* Propulsion.sks in Resources */ = {isa = PBXBuildFile; fileRef = E29E38FE1AE074EE00B24D9C /* Propulsion.sks */; };
+		E2F248D01AE0760600FBCBD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E38CA1AE0726A00B24D9C /* AppDelegate.swift */; };
+		E2F248D11AE0760A00FBCBD8 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E38EE1AE0728300B24D9C /* SwiftyJSON.swift */; };
+		E2F248D21AE0761C00FBCBD8 /* presidents.json in Resources */ = {isa = PBXBuildFile; fileRef = E29E38F01AE072A300B24D9C /* presidents.json */; };
+		E2F248D31AE0762300FBCBD8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E38CE1AE0726A00B24D9C /* GameScene.swift */; };
+		E2F248D41AE0762600FBCBD8 /* Launcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E38F21AE072E100B24D9C /* Launcher.swift */; };
+		E2F248D51AE0762900FBCBD8 /* PresidentLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E38F41AE0733200B24D9C /* PresidentLauncher.swift */; };
+		E2F248D61AE0762B00FBCBD8 /* President.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E38F61AE0735900B24D9C /* President.swift */; };
+		E2F248D71AE0762E00FBCBD8 /* Firework.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E38F81AE0738100B24D9C /* Firework.swift */; };
+		E2F248D81AE0763100FBCBD8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E38D01AE0726A00B24D9C /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CFB65B3B1AE07EDB0003641B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		E29E38C51AE0726A00B24D9C /* IndependenceDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndependenceDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29E38C91AE0726A00B24D9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E29E38CA1AE0726A00B24D9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E29E38CC1AE0726A00B24D9C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		E29E38CE1AE0726A00B24D9C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		E29E38D01AE0726A00B24D9C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		E29E38D31AE0726A00B24D9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +58,15 @@
 		E29E38DE1AE0726A00B24D9C /* IndependenceDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndependenceDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29E38E31AE0726A00B24D9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E29E38E41AE0726A00B24D9C /* IndependenceDayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndependenceDayTests.swift; sourceTree = "<group>"; };
+		E29E38EE1AE0728300B24D9C /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		E29E38F01AE072A300B24D9C /* presidents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = presidents.json; sourceTree = "<group>"; };
+		E29E38F21AE072E100B24D9C /* Launcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Launcher.swift; path = ../Launcher.swift; sourceTree = "<group>"; };
+		E29E38F41AE0733200B24D9C /* PresidentLauncher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PresidentLauncher.swift; path = ../PresidentLauncher.swift; sourceTree = "<group>"; };
+		E29E38F61AE0735900B24D9C /* President.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = President.swift; path = ../President.swift; sourceTree = "<group>"; };
+		E29E38F81AE0738100B24D9C /* Firework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Firework.swift; path = ../Firework.swift; sourceTree = "<group>"; };
+		E29E38FA1AE0747D00B24D9C /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explosion.sks; sourceTree = "<group>"; };
+		E29E38FB1AE0747D00B24D9C /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		E29E38FE1AE074EE00B24D9C /* Propulsion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Propulsion.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +108,19 @@
 		E29E38C71AE0726A00B24D9C /* IndependenceDay */ = {
 			isa = PBXGroup;
 			children = (
+				E29E38EE1AE0728300B24D9C /* SwiftyJSON.swift */,
+				E29E38F01AE072A300B24D9C /* presidents.json */,
 				E29E38CA1AE0726A00B24D9C /* AppDelegate.swift */,
-				E29E38CC1AE0726A00B24D9C /* GameScene.sks */,
 				E29E38CE1AE0726A00B24D9C /* GameScene.swift */,
+				CFB65B3B1AE07EDB0003641B /* GameScene.sks */,
+				E29E38F21AE072E100B24D9C /* Launcher.swift */,
+				E29E38F41AE0733200B24D9C /* PresidentLauncher.swift */,
+				E29E38F61AE0735900B24D9C /* President.swift */,
+				E29E38F81AE0738100B24D9C /* Firework.swift */,
 				E29E38D01AE0726A00B24D9C /* GameViewController.swift */,
+				E29E38FA1AE0747D00B24D9C /* explosion.sks */,
+				E29E38FE1AE074EE00B24D9C /* Propulsion.sks */,
+				E29E38FB1AE0747D00B24D9C /* spark.png */,
 				E29E38D21AE0726A00B24D9C /* Main.storyboard */,
 				E29E38D51AE0726A00B24D9C /* Images.xcassets */,
 				E29E38D71AE0726A00B24D9C /* LaunchScreen.xib */,
@@ -175,7 +211,7 @@
 				};
 			};
 			buildConfigurationList = E29E38C01AE0726A00B24D9C /* Build configuration list for PBXProject "IndependenceDay" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -198,9 +234,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E29E38F11AE072A300B24D9C /* presidents.json in Resources */,
+				E29E38FD1AE0747D00B24D9C /* spark.png in Resources */,
 				E29E38D91AE0726A00B24D9C /* LaunchScreen.xib in Resources */,
+				E29E38FF1AE074EE00B24D9C /* Propulsion.sks in Resources */,
+				CFB65B3C1AE07EDB0003641B /* GameScene.sks in Resources */,
 				E29E38D61AE0726A00B24D9C /* Images.xcassets in Resources */,
-				E29E38CD1AE0726A00B24D9C /* GameScene.sks in Resources */,
+				E29E38FC1AE0747D00B24D9C /* explosion.sks in Resources */,
 				E29E38D41AE0726A00B24D9C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2F248D21AE0761C00FBCBD8 /* presidents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +260,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E29E38F51AE0733200B24D9C /* PresidentLauncher.swift in Sources */,
+				E29E38F71AE0735900B24D9C /* President.swift in Sources */,
+				E29E38F91AE0738100B24D9C /* Firework.swift in Sources */,
 				E29E38CF1AE0726A00B24D9C /* GameScene.swift in Sources */,
 				E29E38D11AE0726A00B24D9C /* GameViewController.swift in Sources */,
+				E29E38F31AE072E100B24D9C /* Launcher.swift in Sources */,
 				E29E38CB1AE0726A00B24D9C /* AppDelegate.swift in Sources */,
+				E29E38EF1AE0728300B24D9C /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2F248D51AE0762900FBCBD8 /* PresidentLauncher.swift in Sources */,
+				E2F248D61AE0762B00FBCBD8 /* President.swift in Sources */,
+				E2F248D71AE0762E00FBCBD8 /* Firework.swift in Sources */,
+				E2F248D11AE0760A00FBCBD8 /* SwiftyJSON.swift in Sources */,
+				E2F248D81AE0763100FBCBD8 /* GameViewController.swift in Sources */,
+				E2F248D01AE0760600FBCBD8 /* AppDelegate.swift in Sources */,
+				E2F248D41AE0762600FBCBD8 /* Launcher.swift in Sources */,
+				E2F248D31AE0762300FBCBD8 /* GameScene.swift in Sources */,
 				E29E38E51AE0726A00B24D9C /* IndependenceDayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +469,7 @@
 				E29E38EA1AE0726A00B24D9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E29E38EB1AE0726A00B24D9C /* Build configuration list for PBXNativeTarget "IndependenceDayTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +478,7 @@
 				E29E38ED1AE0726A00B24D9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
